@@ -1,0 +1,301 @@
+/* by Mykhailo Moiseiev */
+/* Your order section (container by default)*/
+.your-order-section {
+  background-color: #7a3145;
+  padding: 80px 0px;
+  font-family: 'Inter Tight', sans-serif;
+}
+@media only screen and (min-width: 768px) {
+  .your-order-section {
+    padding: 100px 0px;
+  }
+}
+
+/* Your order text info block */
+.your-order-text-block-header {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 29px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-text-block-header {
+    width: 640px;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .your-order-text-block-header {
+    width: 751px;
+  }
+}
+
+.your-order-text-block-highlight {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.your-order-text-block-paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-text-block-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 640px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .your-order-text-block-paragraph {
+    width: 742px;
+  }
+}
+
+.your-order-text-block {
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-text-block {
+    margin-bottom: 50px;
+  }
+}
+
+/* Block with contact form and links */
+.your-order-form-link-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-form-link-block {
+    gap: 25px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .your-order-form-link-block {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+.your-order-orderform-block {
+  border-radius: 30px;
+  padding: 40px 20px;
+  background-color: #fbfbfb;
+  flex-shrink: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-orderform-block {
+    border-radius: 30px;
+    padding: 50px 100px;
+    width: 628px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .your-order-orderform-block {
+    padding: 50px;
+    width: 529px;
+  }
+}
+.your-order-orderform-block-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-orderform-block-header {
+    margin-bottom: 50px;
+  }
+}
+
+.your-order-orderform-block-highlight {
+  color: #7a3145;
+}
+
+.your-order-orderform-block-highlight-second {
+  color: #576f35;
+}
+.your-order-orderform-block-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.your-order-orderform-block-form input,
+.your-order-orderform-block-form textarea {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-orderform-block-form input,
+  .your-order-orderform-block-form textarea {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.your-order-orderform-block-form input {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  padding: 14px 16px 14px 16px;
+  border-radius: 30px;
+  width: auto;
+  height: 46px;
+}
+.your-order-orderform-block-form textarea {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  padding: 14px 16px 14px 16px;
+  border-radius: 15px;
+  width: auto;
+  height: 91px;
+}
+
+.your-order-orderform-block-form input:focus {
+  border: 1px solid #7a3145;
+}
+
+.your-order-orderform-block-form
+  input:invalid:not(:focus):not(:placeholder-shown) {
+  border-color: rgba(20, 20, 20, 0.2);
+}
+
+.your-order-orderform-block-form input:valid {
+  border-color: #3cbc81;
+}
+
+.your-order-orderform-block-form input:invalid:focus {
+  border-color: #e74a3b;
+}
+.your-order-orderform-block-form-button {
+  border-radius: 30px;
+  padding: 16px 0px;
+  background: #576f35;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-orderform-block-form-button {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+
+/* Social links form */
+.your-order-linkform-block {
+  border-radius: 30px;
+  padding: 40px 20px;
+  background: #576f35;
+  flex-shrink: 0;
+}
+@media only screen and (min-width: 768px) {
+  .your-order-linkform-block {
+    width: 628px;
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .your-order-linkform-block {
+    width: 527px;
+  }
+}
+.your-order-linkform-block-image {
+  border-radius: 15px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-linkform-block-image {
+    width: 528px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .your-order-linkform-block-image {
+    width: 427px;
+    height: 273px;
+  }
+}
+
+.your-order-linkform-block-paragraph {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-linkform-block-paragraph {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+}
+
+.your-order-linkform-block-list li {
+  display: inline;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-linkform-block-list li {
+    font-size: 32px;
+    line-height: 1;
+  }
+}
+
+.your-order-linkform-block-list li {
+  margin: 8px 0px;
+}
+
+.your-order-linkform-block-list li:not(:last-child)::after {
+  content: '/';
+  margin: 0px 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .your-order-linkform-block-list li:not(:last-child)::after {
+    margin: 0px 12px;
+  }
+}
