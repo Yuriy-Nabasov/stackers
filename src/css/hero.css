@@ -1,7 +1,8 @@
 /* Hero section */
 
 .hero-section {
-  background-color: #576f35;
+  /* background-color: #576f35; */
+
   padding-top: 100px;
   padding-bottom: 0;
 }
@@ -12,7 +13,7 @@
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
+  /* color: #fbfbfb; */
   margin-bottom: 20px;
 }
 
@@ -20,7 +21,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  color: #fbfbfb;
+  /* color: #fbfbfb; */
   margin-bottom: 40px;
 }
 
