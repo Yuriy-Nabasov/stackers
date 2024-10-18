@@ -1,7 +1,10 @@
 .footer {
   background-color: #7a3145; /* Burgundy color */
   color: #fbfbfb;
-  padding: 40px 20px;
+  padding: 50px, 100px, 50px, 100px;
+  width: auto;
+  height: 391px;
+  font-family: 'Inter Tight';
 }
 
 .container {
@@ -23,7 +26,11 @@
   font-size: 14px;
   line-height: 1.6;
 }
-
+.footer-block {
+  width: 513px;
+  height: 146px;
+  gap: 121px;
+}
 .footer-right ul {
   list-style-type: none;
   padding: 0;
@@ -37,12 +44,14 @@
 .footer-right ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .footer-contact {
-  font-size: 14px;
+  font-size: 18px;
+  justify-content: right;
+  text-align: right;
 }
 
 .footer-contact p {
@@ -54,19 +63,14 @@
   text-decoration: none;
 }
 
-.footer-contact a:hover {
-  text-decoration: underline;
-}
-
 .footer-bottom {
-  border-top: 1px solid #b27d84;
   margin-top: 20px;
-  padding-top: 10px;
+  padding-top: 115px;
   text-align: center;
 }
 
 .footer-bottom a {
-  color: #b27d84;
+  color: #fbfbfb80;
   text-decoration: none;
   font-size: 12px;
 }
@@ -74,4 +78,5 @@
 .footer-bottom p {
   font-size: 12px;
   margin-top: 10px;
+  color: #fbfbfb80;
 }
